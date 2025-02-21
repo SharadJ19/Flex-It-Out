@@ -56,9 +56,10 @@ npm run dev
 * Add a leaderboard functionality
 * Add a Mobile support
 
+  
 ## 📸 Screenshots
 
-[ss.jpg]
+![ss](https://github.com/user-attachments/assets/2020f0bd-709e-4571-8067-aa67d349f307)
 
 ---
 Built with ❤️ at Bajaj Finserv Hackathon 
