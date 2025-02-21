@@ -1,5 +1,4 @@
 <!-- to display video feed -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +8,14 @@
 </head>
 <body>
     <h1>AI-Powered Fitness Tracker</h1>
-    <video id="video" width="640" height="480" autoplay></video>
-    <script src="script.js"></script>
+    <video id="video" width="640" height="480" autoplay style="display: none;"></video>
+    <canvas id="canvas"></canvas>
+
+    <!-- Load MediaPipe Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils"></script>
-
+    
+    <script src="script.js"></script>
 </body>
 </html>
-
