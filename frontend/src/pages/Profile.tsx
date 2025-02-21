@@ -1,17 +1,13 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-
 const Profile = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar />
-      <div className="flex flex-grow items-center justify-center text-center">
-        <div className="max-w-3xl">
-          <h1 className="text-4xl font-semibold text-blue-600">Profile</h1>
-          <p className="text-gray-500 mt-2 text-lg">Track your progress and achievements.</p>
+    <div className="min-h-screen bg-gray-100 p-6">
+      <h2 className="text-3xl font-bold mb-4">Profile</h2>
+      <div className="bg-white rounded-lg shadow-lg p-4">
+        <div className="text-center">
+          <p className="text-xl">Username: JohnDoe</p>
+          <p className="text-xl">Email: johndoe@example.com</p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

@@ -2,14 +2,32 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="w-full fixed top-0 bg-white shadow-md py-4 px-8 flex justify-between items-center z-50">
-      <Link to="/" className="text-3xl font-bold text-blue-600">FLEX-IT-OUT</Link>
-      <div className="space-x-8 text-lg">
-        <Link to="/workout" className="text-gray-700 hover:text-blue-600 transition">Workout</Link>
-        <Link to="/multiplayer" className="text-gray-700 hover:text-blue-600 transition">Multiplayer</Link>
-        <Link to="/leaderboard" className="text-gray-700 hover:text-blue-600 transition">Leaderboard</Link>
-        <Link to="/profile" className="text-gray-700 hover:text-blue-600 transition">Profile</Link>
+    <nav className="bg-blue-600 text-white p-4 flex justify-between items-center">
+      <div className="text-2xl font-bold">
+        <Link to="/">FLEX-IT-OUT</Link>
       </div>
+      <ul className="flex space-x-6">
+        <li>
+          <Link to="/workout" className="hover:text-blue-200">
+            Workout
+          </Link>
+        </li>
+        <li>
+          <Link to="/multiplayer" className="hover:text-blue-200">
+            Multiplayer
+          </Link>
+        </li>
+        <li>
+          <Link to="/leaderboard" className="hover:text-blue-200">
+            Leaderboard
+          </Link>
+        </li>
+        <li>
+          <Link to="/profile" className="hover:text-blue-200">
+            Profile
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 };

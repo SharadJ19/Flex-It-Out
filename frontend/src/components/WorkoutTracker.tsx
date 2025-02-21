@@ -1,11 +1,21 @@
 const WorkoutTracker = () => {
   return (
-    <div className="max-w-3xl mx-auto bg-white p-6 rounded-xl shadow-md text-center">
-      <h2 className="text-2xl font-semibold text-blue-600">Workout Tracker</h2>
-      <p className="text-gray-500 mt-2">AI-powered pose detection coming soon!</p>
-      <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700 transition">
-        Start Workout
-      </button>
+    <div className="p-6">
+      <h2 className="text-3xl font-bold mb-4">Workout Tracker</h2>
+      <div className="bg-white rounded-lg shadow-lg p-4">
+        <div className="text-center">
+          <p className="text-xl">AI-Powered Pose Detection</p>
+          <div className="mt-4">
+            <video
+              autoPlay
+              className="w-full h-96 bg-gray-200 rounded-lg"
+            ></video>
+          </div>
+          <button className="mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+            Start Workout
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
