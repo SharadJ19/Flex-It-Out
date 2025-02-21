@@ -1,6 +1,6 @@
 # FLEX-IT-OUT: AI-Powered Fitness Tracker 🏋️‍♂️
 
-A fitness tracking web app that uses your webcam to count squats in real-time! Built during [Hackathon Name] using MediaPipe pose detection.
+A fitness tracking web app that uses your webcam to count squats in real-time! Built during Bjaj Finserv Hackathon using MediaPipe pose detection.
 
 ## ✨ What it does
 
