@@ -6,15 +6,15 @@ const Gamification = () => {
         <div className="grid grid-cols-3 gap-4">
           <div className="text-center">
             <p className="text-xl font-bold">Score</p>
-            <p className="text-2xl">1500</p>
+            <p className="text-2xl">0</p>
           </div>
           <div className="text-center">
             <p className="text-xl font-bold">Streak</p>
-            <p className="text-2xl">7 Days</p>
+            <p className="text-2xl">0 Days</p>
           </div>
           <div className="text-center">
             <p className="text-xl font-bold">Badges</p>
-            <p className="text-2xl">🏅 3</p>
+            <p className="text-2xl">🏅 0</p>
           </div>
         </div>
       </div>

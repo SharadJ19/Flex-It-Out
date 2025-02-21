@@ -4,8 +4,8 @@ const Profile = () => {
       <h2 className="text-3xl font-bold mb-4">Profile</h2>
       <div className="bg-white rounded-lg shadow-lg p-4">
         <div className="text-center">
-          <p className="text-xl">Username: JohnDoe</p>
-          <p className="text-xl">Email: johndoe@example.com</p>
+          <p className="text-xl">Username: user1</p>
+          <p className="text-xl">Email: user1@example.com</p>
         </div>
       </div>
     </div>
