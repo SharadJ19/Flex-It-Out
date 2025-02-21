@@ -1,5 +1,3 @@
-##### desc= 🚀 FLEX-IT-OUT – AI fitness platform for 🏆 Bajaj Finserv Hackathon | Built with ⚛️ React + 🟦 TS + 🎨 Tailwind + 🤖 MediaPipe 🏋️‍♂️🔥
-
 # FLEX-IT-OUT: AI-Powered Fitness Tracker 🏋️‍♂️
 
 A fitness tracking web app that uses your webcam to count squats in real-time! Built during [Hackathon Name] using MediaPipe pose detection.
