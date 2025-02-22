@@ -19,20 +19,30 @@ A fitness tracking web app that uses your webcam to count squats in real-time! B
 
 ## 🚀 Running the project
 
-1. Clone the repo:
+### 1. Clone the repo:
 ```bash
 git clone https://github.com/SachittRajpal/Flex-It-Out.git
 cd flex-it-out
 ```
 
-2. Install dependencies:
+### 2. For Frontend 
 ```bash
+# Navigate to the frontend directory
+cd frontend
+
+# Install project dependencies
 npm install
+
+# Start the development server
+npm run dev
 ```
 
-3. Start the development server:
+### 3. For Backend
+
 ```bash
-npm run dev
+cd backend
+npm install
+node server.js
 ```
 
 ## 💪 Challenges we faced
