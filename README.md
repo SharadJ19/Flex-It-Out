@@ -4,7 +4,7 @@ A fitness tracking web app that uses your webcam to count squats in real-time! B
 
 ## ✨ What it does
 
-- Counts your squats automatically using your webcam
+- Counts your squats, pushups and crunches automatically using your webcam
 - Shows your pose landmarks in real-time
 - Tracks your form using angle detection
 - Simple and easy to use interface
@@ -44,16 +44,14 @@ npm run dev
 
 - 🔹 **Backend:** Sharad Chandel  
 - 🔹 **Frontend:** Rudar Partap Singh  
-- 🔹 **Pose Detection (MediaPipe):** Sachit Rajpal & Safal Varadhan  
+- 🔹 **Pose Detection (MediaPipe):** Sachit Rajpal & Safal Varadhan (Got selected for Technical Interview)
 - 🔹 **Collaborated with Everyone:** Shaiv Sud  
 
 ## 🔜 What's next
 
-* Add more exercise (pushups, bicep curls etc)
+* Add Proper Login
 * Add it multiplayer
 * Add a leaderboard functionality
-* Add a Mobile support
-
   
 ## 📸 Screenshots
 
